@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D49338486A881FD12A8F1E3D /* Pods_Bandsintown_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3C8562322887832C3ADF82 /* Pods_Bandsintown_Demo.framework */; };
+		FD2F70F323CF5DE300722C79 /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F70F223CF5DE300722C79 /* Artist.swift */; };
+		FD2F70F723CF76AB00722C79 /* ArtistCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2F70F623CF76AB00722C79 /* ArtistCell.swift */; };
+		FD54A13823D17B4C00DF0F51 /* ArtistDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD54A13723D17B4C00DF0F51 /* ArtistDetailsViewController.m */; };
+		FD68B5CB23CFFD3A00779C78 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD68B5CA23CFFD3A00779C78 /* UIImageView.swift */; };
+		FDB16C1E23CEB0B60084EE19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB16C1D23CEB0B60084EE19 /* AppDelegate.swift */; };
+		FDB16C2023CEB0B60084EE19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB16C1F23CEB0B60084EE19 /* SceneDelegate.swift */; };
+		FDB16C2223CEB0B60084EE19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB16C2123CEB0B60084EE19 /* ViewController.swift */; };
+		FDB16C2523CEB0B60084EE19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB16C2323CEB0B60084EE19 /* Main.storyboard */; };
+		FDB16C2823CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDB16C2623CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodeld */; };
+		FDB16C2A23CEB0B70084EE19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB16C2923CEB0B70084EE19 /* Assets.xcassets */; };
+		FDB16C2D23CEB0B70084EE19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB16C2B23CEB0B70084EE19 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		529FDBEA39C03F8811B2B2BF /* Pods-Bandsintown Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandsintown Demo.debug.xcconfig"; path = "Target Support Files/Pods-Bandsintown Demo/Pods-Bandsintown Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		86BE31D4D8C8EC465B60F546 /* Pods-Bandsintown Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bandsintown Demo.release.xcconfig"; path = "Target Support Files/Pods-Bandsintown Demo/Pods-Bandsintown Demo.release.xcconfig"; sourceTree = "<group>"; };
+		9B3C8562322887832C3ADF82 /* Pods_Bandsintown_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bandsintown_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2F70F223CF5DE300722C79 /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
+		FD2F70F623CF76AB00722C79 /* ArtistCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCell.swift; sourceTree = "<group>"; };
+		FD54A13623D17B4C00DF0F51 /* Bandsintown Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bandsintown Demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FD54A13723D17B4C00DF0F51 /* ArtistDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArtistDetailsViewController.m; sourceTree = "<group>"; };
+		FD54A13923D17C1A00DF0F51 /* ArtistDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArtistDetailsViewController.h; sourceTree = "<group>"; };
+		FD68B5CA23CFFD3A00779C78 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		FDB16C1A23CEB0B60084EE19 /* Bandsintown Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bandsintown Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB16C1D23CEB0B60084EE19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB16C1F23CEB0B60084EE19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDB16C2123CEB0B60084EE19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDB16C2423CEB0B60084EE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB16C2723CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bandsintown_Demo.xcdatamodel; sourceTree = "<group>"; };
+		FDB16C2923CEB0B70084EE19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB16C2C23CEB0B70084EE19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDB16C2E23CEB0B70084EE19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB16C1723CEB0B60084EE19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49338486A881FD12A8F1E3D /* Pods_Bandsintown_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0205788A7A1D3E62993AB340 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				529FDBEA39C03F8811B2B2BF /* Pods-Bandsintown Demo.debug.xcconfig */,
+				86BE31D4D8C8EC465B60F546 /* Pods-Bandsintown Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDE0BA92AD76538C7646FDD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C8562322887832C3ADF82 /* Pods_Bandsintown_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD2F70F123CF5DC500722C79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD2F70F223CF5DE300722C79 /* Artist.swift */,
+				FDB16C2623CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FD2F70F423CF6A6900722C79 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FDB16C2323CEB0B60084EE19 /* Main.storyboard */,
+				FDB16C2B23CEB0B70084EE19 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FD2F70F523CF6A8300722C79 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FDB16C2123CEB0B60084EE19 /* ViewController.swift */,
+				FDB16C1D23CEB0B60084EE19 /* AppDelegate.swift */,
+				FDB16C1F23CEB0B60084EE19 /* SceneDelegate.swift */,
+				FD2F70F623CF76AB00722C79 /* ArtistCell.swift */,
+				FD68B5CA23CFFD3A00779C78 /* UIImageView.swift */,
+				FD54A13923D17C1A00DF0F51 /* ArtistDetailsViewController.h */,
+				FD54A13723D17B4C00DF0F51 /* ArtistDetailsViewController.m */,
+				FD54A13623D17B4C00DF0F51 /* Bandsintown Demo-Bridging-Header.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FDB16C1123CEB0B60084EE19 = {
+			isa = PBXGroup;
+			children = (
+				FDB16C1C23CEB0B60084EE19 /* Bandsintown Demo */,
+				FDB16C1B23CEB0B60084EE19 /* Products */,
+				0205788A7A1D3E62993AB340 /* Pods */,
+				DDE0BA92AD76538C7646FDD5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB16C1B23CEB0B60084EE19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB16C1A23CEB0B60084EE19 /* Bandsintown Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB16C1C23CEB0B60084EE19 /* Bandsintown Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FD2F70F123CF5DC500722C79 /* Model */,
+				FD2F70F423CF6A6900722C79 /* View */,
+				FD2F70F523CF6A8300722C79 /* Controller */,
+				FDB16C2923CEB0B70084EE19 /* Assets.xcassets */,
+				FDB16C2E23CEB0B70084EE19 /* Info.plist */,
+			);
+			path = "Bandsintown Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB16C1923CEB0B60084EE19 /* Bandsintown Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB16C3123CEB0B70084EE19 /* Build configuration list for PBXNativeTarget "Bandsintown Demo" */;
+			buildPhases = (
+				9741637ECAB89C2266A2A87D /* [CP] Check Pods Manifest.lock */,
+				FDB16C1623CEB0B60084EE19 /* Sources */,
+				FDB16C1723CEB0B60084EE19 /* Frameworks */,
+				FDB16C1823CEB0B60084EE19 /* Resources */,
+				E059B1EB9CA4B18D9F2C0215 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bandsintown Demo";
+			productName = "Bandsintown Demo";
+			productReference = FDB16C1A23CEB0B60084EE19 /* Bandsintown Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB16C1223CEB0B60084EE19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tadeo Man";
+				TargetAttributes = {
+					FDB16C1923CEB0B60084EE19 = {
+						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = FDB16C1523CEB0B60084EE19 /* Build configuration list for PBXProject "Bandsintown Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB16C1123CEB0B60084EE19;
+			productRefGroup = FDB16C1B23CEB0B60084EE19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB16C1923CEB0B60084EE19 /* Bandsintown Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB16C1823CEB0B60084EE19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB16C2D23CEB0B70084EE19 /* LaunchScreen.storyboard in Resources */,
+				FDB16C2A23CEB0B70084EE19 /* Assets.xcassets in Resources */,
+				FDB16C2523CEB0B60084EE19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9741637ECAB89C2266A2A87D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bandsintown Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E059B1EB9CA4B18D9F2C0215 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bandsintown Demo/Pods-Bandsintown Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bandsintown Demo/Pods-Bandsintown Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bandsintown Demo/Pods-Bandsintown Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB16C1623CEB0B60084EE19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB16C2823CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodeld in Sources */,
+				FDB16C2223CEB0B60084EE19 /* ViewController.swift in Sources */,
+				FD68B5CB23CFFD3A00779C78 /* UIImageView.swift in Sources */,
+				FD2F70F723CF76AB00722C79 /* ArtistCell.swift in Sources */,
+				FD54A13823D17B4C00DF0F51 /* ArtistDetailsViewController.m in Sources */,
+				FD2F70F323CF5DE300722C79 /* Artist.swift in Sources */,
+				FDB16C1E23CEB0B60084EE19 /* AppDelegate.swift in Sources */,
+				FDB16C2023CEB0B60084EE19 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDB16C2323CEB0B60084EE19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB16C2423CEB0B60084EE19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB16C2B23CEB0B70084EE19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB16C2C23CEB0B70084EE19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB16C2F23CEB0B70084EE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB16C3023CEB0B70084EE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB16C3223CEB0B70084EE19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529FDBEA39C03F8811B2B2BF /* Pods-Bandsintown Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3Q43US36D;
+				INFOPLIST_FILE = "Bandsintown Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tadeoman.Bandsintown-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bandsintown Demo/Controller/Bandsintown Demo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDB16C3323CEB0B70084EE19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86BE31D4D8C8EC465B60F546 /* Pods-Bandsintown Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V3Q43US36D;
+				INFOPLIST_FILE = "Bandsintown Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tadeoman.Bandsintown-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bandsintown Demo/Controller/Bandsintown Demo-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB16C1523CEB0B60084EE19 /* Build configuration list for PBXProject "Bandsintown Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB16C2F23CEB0B70084EE19 /* Debug */,
+				FDB16C3023CEB0B70084EE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB16C3123CEB0B70084EE19 /* Build configuration list for PBXNativeTarget "Bandsintown Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB16C3223CEB0B70084EE19 /* Debug */,
+				FDB16C3323CEB0B70084EE19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDB16C2623CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDB16C2723CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodel */,
+			);
+			currentVersion = FDB16C2723CEB0B60084EE19 /* Bandsintown_Demo.xcdatamodel */;
+			path = Bandsintown_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDB16C1223CEB0B60084EE19 /* Project object */;
+}
